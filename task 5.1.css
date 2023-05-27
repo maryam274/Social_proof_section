@@ -1,0 +1,325 @@
+@import url(https://fonts.google.com/specimen/League+Spartan);
+
+:root {
+    --very-dark-magenta: hsl(300, 43%, 22%);
+    --soft-pink: hsl(333, 80%, 67%);
+    --dark-grayish-magenta: hsl(303, 10%, 53%);
+    --light-grayish-magenta: hsl(300, 24%, 96%);
+    --light-purple : hsla(286, 100%, 96%, 0.555);
+    --white : hsl(0, 0%, 100%);
+}
+
+html {
+    font-family: 'Spartan', sans-serif;
+}
+
+body {
+    font-size: 15px;
+    overflow-x: hidden;
+    background-image: url(bg-pattern-top-desktop.svg), url(bg-pattern-bottom-desktop.svg);
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+}
+
+.header {
+    color:var(--very-dark-magenta);
+    width: 400px;
+    margin-top: 165px;
+    margin-left: 152px;
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 48px;
+}
+
+.p {
+    color: var(--dark-grayish-magenta);
+    width: 450px;
+    margin-left: 152px;
+    margin-top: -15px;
+    line-height: 23px;
+}
+.rated {
+    width: 700px;
+}
+.reviews {
+    background-color: var(--light-purple);
+    border-radius: 5px;
+    border-left-width: 0px;
+    border-right-style: solid;
+    border-right-width: 0px;
+    width: 60px;
+    margin-left: 600px;
+    margin-right: 100px;
+    height: 40px;
+    padding-bottom: 20px;
+    padding-right: 150px;
+    padding-left: 200px;
+}
+.stars1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border-radius: 50px;
+    margin-top: -200px;
+    width: 130px;
+    height: 16px;
+    padding-top: 22px;
+    margin-left: -190px;
+}
+
+.rate-reviews {
+    color: var(--very-dark-magenta);
+    font-weight: 700;
+    font-size: 13px;
+    margin-left: 550px;
+    margin-top: -25px;
+    width: 200px;
+
+} 
+.rate-one {
+    border-top-style: solid;
+    border-top-width: 0px;
+    margin-left: -590px;
+    margin-top: 10px;
+}
+.report {
+    background-color: var(--light-purple);
+    border-radius: 5px;
+    border-left-width: 0px;
+    border-right-style: solid;
+    border-right-width: 0px;
+    padding-bottom: 20px;
+    padding-right: 150px;
+    padding-left: 200px;
+    margin-left: 660px;
+    height: 40px;
+    width: 60px;
+    margin-right: 100px;
+    margin-top: -30px;
+}
+.stars2 {
+    margin-left: -190px;
+    padding-top: 22px;
+    margin-top: 52px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 130px;
+}
+
+.rate-report {
+    color: var(--very-dark-magenta);
+    font-weight: 700;
+    font-size: 13px;
+    margin-left: -150px;
+    padding-left: 100px;
+    width: 200px;
+    margin-top: -28px;
+}
+.rate-two {
+    color: var(--very-dark-magenta);
+    font-weight: 700;
+    font-size: 13px;
+}
+
+.besttech {
+    background-color: var(--light-purple);
+    border-radius: 5px;
+    border-left-width: 0px;
+    border-right-style: solid;
+    border-right-width: 0px;
+    padding-bottom: 20px;
+    padding-right: 150px;
+    padding-left: 200px;
+    margin-left: 720px;
+    height: 40px;
+    width: 60px;
+    margin-right: 100px;
+    margin-top: -30px;
+}
+
+.stars3 {
+    padding-top: 22px;
+    margin-left: -190px;
+    margin-top: 53px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 130px;
+}
+
+.rate-besttech {
+    color: var(--very-dark-magenta);
+    font-weight: 700;
+    font-size: 13px;
+    margin-left: -50px;
+    margin-top: -26px;
+    width: 200px;
+}
+.rate-three {
+    margin: 13px 0px;
+}
+
+.colton {
+    width: 342px;
+    height: 227px;
+    background-color: var(--very-dark-magenta);
+    margin-top:105px;
+    margin-left: 150px;
+    border-radius: 10px;
+}
+
+.irene {
+    width: 338px;
+    height: 227px;
+    background-color: var(--very-dark-magenta);
+    border-radius: 10px;
+    margin-left: 525px;
+    margin-top: -210px;
+}
+
+.anne {
+    width: 338px;
+    height: 227px;
+    background-color: var(--very-dark-magenta);
+    border-radius: 10px;
+    margin-left: 893px;
+    margin-top: -215px;
+}
+
+.image-colton {
+    border-radius: 100px;
+    width: 40px;
+    margin-left: 34px;
+    margin-top: 38px;
+}
+
+.image-irene {
+    border-radius: 100px;
+    width: 40px;
+    margin-left: 29px;
+    margin-top: 37px;
+}
+
+.image-anne {
+    border-radius: 100px;
+    width: 40px;
+    margin-left: 29px;
+    margin-top: 40px;
+}
+
+.info {
+    margin-left: 93px;
+    margin-top: -53px;
+}
+
+.username {
+    font-weight: 700;
+    color: var(--white);
+    font-size: 13px;
+}
+
+.status {
+    font-weight: 100;
+    color: var(--soft-pink);
+    font-size: 13px;
+    margin-top: -8px;
+}
+
+.user-feedback {
+    width: 289px;
+    height: 100px;
+    margin-top: 28px;
+    margin-left: 30px;
+    font-size: 13px;
+}
+
+.feedback-text {
+    color: var(--white);
+    font-weight: 500;
+    line-height: 23px;
+} 
+
+@media(max-width: 768px) {
+body {
+    width: 375px;
+    margin-left:  200px;
+    padding-left: 10px;
+
+} 
+
+.first {
+    width: 375px;
+    margin-top: -120px;
+    margin-left: -200px;
+    align-content: flex-start;
+    float: left;
+    font-weight: 100px;
+} 
+.header, .p {
+    width: 375px;
+    margin-left: 40px;
+    padding-left: 10px;
+}
+.p {
+    text-align-last: left;
+}
+.rated {
+    margin-left: -600px;
+    padding-left: 50px;
+    margin-top: 220px;
+    font-size: large;
+
+}
+.reviews {
+    width: 50px;
+    height: 30px;
+    margin-top: -200px;
+    margin-right: 0px;
+    padding-right: 100px;
+}
+.stars1 {
+    margin-top: -7px;
+    margin-left: -200px;
+  }
+  .rate-one {
+    margin-left: -600px;
+  }
+.report {
+    width: 50px;
+    height: 30px;
+    margin-top: -40px;
+    margin-right: 0px;
+    padding-right: 100px;
+    margin-left: 600px;
+  }
+  .besttech {
+    margin-left: 600px;
+    margin-top: -40px;
+    padding-right: 100px;
+    margin-right: 0px;
+    width: 50px;
+    height: 30px;
+  }
+  .second {
+    align-items: center;
+    align-content: flex-start;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    margin-left: -250px;
+    margin-top: -900px;
+    width: 375px;
+  }
+  .irene {
+    margin-top: 9px;
+    margin-left: 150px;
+    width: 342px;
+  }
+  .anne {
+    margin-top: 10px;
+    margin-left: 150px;
+    width: 342px;
+  }
+
+}
